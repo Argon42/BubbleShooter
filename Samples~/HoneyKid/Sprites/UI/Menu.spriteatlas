@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Menu
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 81d2e2aeb5d86464e82cbf42d85d5cfa, type: 3}
+    totalSpriteSurfaceArea: 4755491
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4902566074bb71a489ba84902f5b433d, type: 3}
+  - {fileID: 21300000, guid: 9b5f81c2b4ee6c94eb858069e3bd8238, type: 3}
+  - {fileID: 21300000, guid: 07f1cd136ea95a04092c63620f0faa2f, type: 3}
+  - {fileID: 21300000, guid: ecdb4704d90b573478c7254ad468cb57, type: 3}
+  - {fileID: 21300000, guid: b792adb49d5fbf24f91396e90f38d202, type: 3}
+  - {fileID: 21300000, guid: 5ff7aaa68ef206c46a1ea4c424559d18, type: 3}
+  - {fileID: 21300000, guid: c3fd7207c93314849be4540fc0a905fa, type: 3}
+  - {fileID: 21300000, guid: 7cc0c6c7e9dd48c47a783a65a270be95, type: 3}
+  - {fileID: 21300000, guid: 1424ca284d8a7f74195775a7c2e22b49, type: 3}
+  - {fileID: 21300000, guid: 21ed17688c16aef439630bdbf999825f, type: 3}
+  - {fileID: 21300000, guid: 79f638c88e1ee2e459df28eea9bc5154, type: 3}
+  - {fileID: 21300000, guid: 6dcc5b2b5a6511448b9be360a700ab89, type: 3}
+  - {fileID: 21300000, guid: 4523330ccb16a644588b42708735039e, type: 3}
+  - {fileID: 21300000, guid: 5f9b189ce5e121446ac7ffa57d632bf6, type: 3}
+  - {fileID: 21300000, guid: 16da5bbe27bbad346973980fc730961e, type: 3}
+  - {fileID: 21300000, guid: e6ce966f8549c8043bafec3f8ad2a245, type: 3}
+  - {fileID: 21300000, guid: efceccdf3b0aade4a800c34f58d09940, type: 3}
+  - {fileID: 2439095327524978070, guid: 0dba8fdfd8e4fba459e4f616570dd27a, type: 3}
+  - {fileID: 6358866315735295443, guid: 0dba8fdfd8e4fba459e4f616570dd27a, type: 3}
+  - {fileID: 876206857547689416, guid: 0dba8fdfd8e4fba459e4f616570dd27a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - CloseButton
+  - MoveLabel
+  - PauseButton
+  - HealthIcon
+  - MenuBackground
+  - ScoreBar
+  - TitleLabel
+  - EndlessGameIcon
+  - RestartButton
+  - PlayButton
+  - GameButton
+  - TextButton
+  - TextBackground
+  - BubbleLabel
+  - Health
+  - Star
+  - HealthBar
+  - TimeLabel
+  - HourHand_2
+  - HourHand_1
+  m_RenderDataMap: {}
+  m_Tag: Menu
+  m_IsVariant: 0

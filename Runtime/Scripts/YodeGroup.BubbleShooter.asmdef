@@ -1,0 +1,16 @@
+{
+    "name": "YodeGroup.BubbleShooter",
+    "rootNamespace": "YodeGroup.BubbleShooter",
+    "references": [
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "com.yode.bubbleshooter",
+  "version": "2.0.0",
+  "displayName": "Bubble Shooter",
+  "description": "This is bubble shooter game template package",
+  "hideInEditor": false,
+  "samples": [
+    {
+      "displayName": "HoneyKid sample",
+      "description": "Example based on HoneyKid",
+      "path": "Samples~/HoneyKid"
+    }
+  ],
+  "type": "template"
+}

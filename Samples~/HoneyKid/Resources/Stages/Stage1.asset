@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc964a345a4544409ff9fc4c2a016cc, type: 3}
+  m_Name: Stage1
+  m_EditorClassIdentifier: 
+  stageName: Stage1
+  limitMoves: 35
+  targetsNumber: 3
+  Star1: 300
+  Star2: 450
+  Star3: 650
+  stageNumber: 1
+  bubblesInfo:
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 4.5030003, y: -0.5050001, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 5.5030003, y: -0.5050001, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 5.5030003, y: 0.4949999, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 4.5030003, y: 0.4949999, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 4.5030003, y: 1.4949999, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 5.5030003, y: 1.4949999, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 5.5030003, y: 2.4949994, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 4.5030003, y: 2.4949994, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 3.503, y: 2.4949994, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 3.503, y: 1.4949999, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 3.503, y: 0.4949999, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_rose(Clone)
+    position: {x: 3.503, y: -0.5050001, z: 0}
+    bubbleType: 4
+  - bubbleName: bubble_green(Clone)
+    position: {x: 5.5030003, y: 3.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: 4.5030003, y: 3.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: 3.503, y: 3.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: 4.5030003, y: 4.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: 5.5030003, y: 4.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: 5.5030003, y: 5.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: 4.5030003, y: 5.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: 3.503, y: 5.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 2.503, y: 1.4949999, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 2.503, y: 0.4949999, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 2.503, y: -0.5050001, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 1.503, y: -0.5050001, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 1.503, y: 0.4949999, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 0.5029998, y: 0.4949999, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 0.5029998, y: -0.5050001, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: -0.49700022, y: -0.5050001, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: -0.49700022, y: 0.4949999, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: -0.49700022, y: 1.4949999, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 0.5029998, y: 1.4949999, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 1.503, y: 1.4949999, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 1.503, y: 2.4949994, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 2.503, y: 2.4949994, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: 0.5029998, y: 2.4949994, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_yellow(Clone)
+    position: {x: -0.49700022, y: 2.4949994, z: 0}
+    bubbleType: 3
+  - bubbleName: bubble_blue(Clone)
+    position: {x: 2.503, y: 3.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: 1.503, y: 3.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: 0.5029998, y: 3.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: -0.49700022, y: 3.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: -0.49700022, y: 4.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: 0.5029998, y: 4.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: 1.503, y: 4.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: 2.503, y: 4.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: 2.503, y: 5.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: 1.503, y: 5.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: 0.5029998, y: 5.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_blue(Clone)
+    position: {x: -0.49700022, y: 5.4949994, z: 0}
+    bubbleType: 1
+  - bubbleName: bubble_green(Clone)
+    position: {x: -3.4970002, y: 4.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -4.497, y: 4.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -4.497, y: 3.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -3.4970002, y: 3.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -2.4970002, y: 3.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -1.4970002, y: 3.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -1.4970002, y: 4.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -1.4970002, y: 5.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -2.4970002, y: 5.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -3.4970002, y: 5.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_green(Clone)
+    position: {x: -4.497, y: 5.4949994, z: 0}
+    bubbleType: 0
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -5.497, y: 5.4949994, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -5.497, y: 4.4949994, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -5.497, y: 3.4949994, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -5.497, y: 2.4949994, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -4.497, y: 2.4949994, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -3.4970002, y: 2.4949994, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -2.4970002, y: 2.4949994, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -1.4970002, y: 2.4949994, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -1.4970002, y: 1.4949999, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -1.4970002, y: 0.4949999, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_pink(Clone)
+    position: {x: -1.4970002, y: -0.5050001, z: 0}
+    bubbleType: 2
+  - bubbleName: bubble_red(Clone)
+    position: {x: -4.497, y: 0.4949999, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -5.497, y: 0.4949999, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -5.497, y: 1.4949999, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -4.497, y: 1.4949999, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -3.4970002, y: 1.4949999, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -2.4970002, y: 1.4949999, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -2.4970002, y: 0.4949999, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -2.4970002, y: -0.5050001, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -3.4970002, y: -0.5050001, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -4.497, y: -0.5050001, z: 0}
+    bubbleType: 5
+  - bubbleName: bubble_red(Clone)
+    position: {x: -5.497, y: -0.5050001, z: 0}
+    bubbleType: 5
+  heroesInfo: []
